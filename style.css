@@ -1,0 +1,47 @@
+
+#timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ } 
+
+ .wc-countdown {
+    margin: 10px 0 auto;
+    cursor: pointer
+}
+
+.wc-countdown #timer .wc-countdown-counter {
+    display: inline-block;
+    line-height: 1;
+    padding: 10px 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: #0033B5;
+    width: 50px;
+    margin: 0 7px;
+    font-weight: 700;
+    background: #ededed;
+    border-radius: 6px
+}
+
+.wc-countdown span {
+    display: block;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 5px
+}
+
+ @media only screen and (max-width: 767px)
+.wc-countdown #timer .wc-countdown-counter {
+    font-size: 20px;
+}
+
+.text-danger {
+    color: #dc3545!important
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+}
